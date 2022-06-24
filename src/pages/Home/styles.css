@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.container input{
+  width: 50%;
+  padding: 24px;
+
+  background: #e6e6e6;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.container button{
+  margin: 12px 0 84px;
+  width: 50%;
+  padding: 24px;
+
+  background: #ea4c89;
+  color: #FFF;
+  border-radius: 5px;
+  border: none;
+
+  font-weight: 700;
+  font-size: 16px;
+
+  cursor: pointer;
+  transition: filter 0.2;
+}
+
+.container button:hover{
+  filter: brightness(0.9);
+}
