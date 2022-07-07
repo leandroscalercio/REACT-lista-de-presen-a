@@ -27,7 +27,7 @@ export function Home() {
   }
 
   useEffect(() => {
-    fetch('https://api.github.com/users/leandroscalercio')
+    fetch('https://api.github.com/users/rodrigobranas')
       .then((response) => response.json())
       .then((data) => {
         setUser({
